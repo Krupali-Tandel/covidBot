@@ -1,0 +1,54 @@
+*{
+    margin : 0px ;
+    padding : 0px ;
+font-family :Arial, sans-serif;
+}
+
+body {
+    background-image: url('pictures/COVID\ BOT.png');
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#navbar {
+    width : 100%;
+    height : 3rem ;
+ 
+    
+}
+
+#navbarlist{
+    display : flex ;
+     justify-content: space-around;
+    list-style: none ;
+    align-items: center ;
+    background-color: black;
+}
+
+.listitem {
+    font-weight: 100;
+    font-size: large;
+    color : white ;
+    margin : 10px ;
+}
+
+.mainbody {
+    margin-top : 50px ;
+    display: flex ;
+    justify-content: flex-end ;
+    align-items: center;
+    margin-right : 100px ;
+
+}
+
+iframe {
+    height : 700px;
+    margin : 70px ;
+}
+
+
+#main_content {
+    font-size: medium;
+color : white ;
+}
